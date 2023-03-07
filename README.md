@@ -10,6 +10,7 @@
   Streamlit is an open-source app framework in python language.
   It helps us create beautiful web apps for data science and machine learning in a little time. 
   It is compatible with major python libraries such as scikit-learn, keras, PyTorch, latex, numpy, pandas, matplotlib, etc
+  
         """st.title("Extracting Business Card Data with OCR")
            uploaded_file = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg'])
            st.button('upload')
