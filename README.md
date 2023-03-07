@@ -15,6 +15,11 @@
            uploaded_file = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg'])
            st.button('upload')
            st.button('download')"""
+ ## Easyocr
+         """IMAGE_PATH = 'image1.jpg'
+            reader = easyocr.Reader(['en'], details=0,paragraph=True)
+            result = reader.readtext(IMAGE_PATH)
+            result
        
        
        
