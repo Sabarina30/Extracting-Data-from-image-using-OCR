@@ -20,6 +20,15 @@
             reader = easyocr.Reader(['en'], details=0,paragraph=True)
             result = reader.readtext(IMAGE_PATH)
             result
-       
+            
+ ## sqlite3
+ A standalone command-line shell program called sqlite3 is provided in SQLite's distribution. 
+ It can be used to create a database, define tables, insert and change rows, run queries and manage an SQLite database file.
+ 
+         """# Connect to the database
+              conn = sqlite3.connect('sim.db')
+              # Create a cursor
+              cursor = conn.cursor()
+              conn.commit()"""
        
        
